@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    margin: 0;
+    color: white;
+}
+
+.draw-box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: aliceblue;
+}
+
+.text-white {
+    color: white;
+}
+
+.d-size {
+    font-size: 4em;
+}
+
+.home-background {
+    background-image: url("assets/bkbackground.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
