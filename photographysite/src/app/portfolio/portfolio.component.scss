@@ -2,44 +2,47 @@
     margin:2em 5em 0 5em;
 }
 
-.pimgs{
-    height:25%;
-    width:25%;
-    margin:0 1% 0 1%;
-}
+// .pimgs{
+//     height:25%;
+//     width:25%;
+//     margin:0 1% 0 1%;
+// }
 
-.limgs{
-    height:50%;
-    width:50%;
-    margin:0 1% 0 1%;
-}
+// .limgs{
+//     height:50%;
+//     width:50%;
+//     margin:0 1% 0 1%;
+// }
 
 .limg-spacing{
     margin-top:2%
 }
 
-div.test > div{
+div.wrapping > div{
     display:flex
 }
 
-
+div.image img{
+    box-shadow: 9px 13px 15px #262323;
+}
 
 @media only screen and (max-width: 600px) {
-    div.test > div{
+    div.wrapping > div{
         display: block;
     }
 
     .pimgs{
         width:100%;
-        margin:0;      
+        margin:0;   
+        margin-bottom:5%;
+   
     }
-
 
     .limgs{
-        width:100%
+        width:100%;
+        margin:0; 
     }
 
-    
     .portfolio-margin{
         margin: 0
     }
@@ -47,19 +50,26 @@ div.test > div{
     .limg-spacing{
         margin:0
     }   
+
+    div.image img{
+        box-shadow:none;
+    }
 } 
 
 @media only screen and (min-width: 600px) {
     .pimgs{
         width:100%;
-        margin:0;        
+        margin:0;  
+        margin-bottom:5%;
+      
     }
     
     .limgs{
-        width:100%
+        width:100%;
+        margin:0;
     }
 
-    div.test > div{
+    div.wrapping > div{
         display: block;
     }
     .wrap{
@@ -74,14 +84,14 @@ div.test > div{
     .pimgs{
         width:100%;
         margin:0;
+        margin-bottom:5%;
     }
     
     .limgs{
         width:100%
     }
 
-
-    div.test > div{
+    div.wrapping > div{
         display: block;
     }
     .wrap{
@@ -100,10 +110,11 @@ div.test > div{
     }
 
     .limgs{
-        width:50%
+        width:50%;
+        margin:0 1% 0 1%;
     }
 
-    div.test > div{
+    div.wrapping > div{
         display: flex;
     }
     .wrap{
