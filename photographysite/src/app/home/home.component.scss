@@ -14,7 +14,7 @@
 }
 
 .header-margin{
-    margin:22vh 0 1em 0;
+    margin:22vh 2em 1em 2em;
 }
 
 .contact-button{
@@ -29,4 +29,16 @@
     font-weight: 600;
     cursor: pointer;
     margin:2.5em;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-question{
+        font-size:4em;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .home-question{
+        font-size:3em;
+    }
 }

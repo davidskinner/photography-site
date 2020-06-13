@@ -39,7 +39,7 @@ constructor() {
 
 
   ngOnDestroy(): void {
-    throw new Error("Method not implemented.");
+    // throw new Error("Method not implemented.");
   }
 
   ngOnInit(): void {

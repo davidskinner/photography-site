@@ -1,7 +1,6 @@
-
+@import '../variables.scss';
 
 .links{
-    display:flex;
     align-self:center;
     margin:1.5em;
     font-size:1.5em;
@@ -9,5 +8,17 @@
 }
 
 .links:hover{
-    color:#1CD95F;
+    color:$primary-color;
 }
+
+@media only screen and (max-width: 992px) {
+.links{
+    margin:1.0em;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .links{
+        margin:.5em;
+    }
+    }
