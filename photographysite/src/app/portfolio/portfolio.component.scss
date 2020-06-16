@@ -1,114 +1,111 @@
-.portfolio-margin{
-    margin:2em 5em 0 5em;
+.portfolio-margin {
+    margin: 2em 5em 0 5em;
 }
 
-.limg-spacing{
-    margin-top:2%
+.limg-spacing {
+    margin-top: 2%;
 }
 
-div.wrapping > div{
-    display:flex
+div.wrapping > div {
+    display: flex;
 }
 
-div.image img{
+div.image img {
     box-shadow: 9px 13px 15px #262323;
 }
 
 @media only screen and (max-width: 600px) {
-    div.wrapping > div{
+    div.wrapping > div {
         display: block;
     }
 
-    .pimgs{
-        width:100%;
-        margin:0;   
-        margin-bottom:5%;
-   
+    .pimgs {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 5%;
     }
 
-    .limgs{
-        width:100%;
-        margin:0; 
+    .limgs {
+        width: 100%;
+        margin: 0;
     }
 
-    .portfolio-margin{
-        margin: 0
+    .portfolio-margin {
+        margin: 0;
     }
-    
-    .limg-spacing{
-        margin:0
-    }   
 
-    div.image img{
-        box-shadow:none;
+    .limg-spacing {
+        margin: 0;
     }
-} 
+
+    div.image img {
+        box-shadow: none;
+    }
+}
 
 @media only screen and (min-width: 600px) {
-    .pimgs{
-        width:100%;
-        margin:0;  
-        margin-bottom:5%;
-      
-    }
-    
-    .limgs{
-        width:100%;
-        margin:0;
+    .pimgs {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 5%;
     }
 
-    div.wrapping > div{
+    .limgs {
+        width: 100%;
+        margin: 0;
+    }
+
+    div.wrapping > div {
         display: block;
     }
-    .wrap{
-        overflow-x:auto
+    .wrap {
+        overflow-x: auto;
     }
-    .limg-spacing{
-        margin:0
-    }   
+    .limg-spacing {
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 992px) {
-    .pimgs{
-        width:100%;
-        margin:0;
-        margin-bottom:5%;
-    }
-    
-    .limgs{
-        width:100%
+    .pimgs {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 5%;
     }
 
-    div.wrapping > div{
+    .limgs {
+        width: 100%;
+    }
+
+    div.wrapping > div {
         display: block;
     }
-    .wrap{
-        overflow-x:auto
+    .wrap {
+        overflow-x: auto;
     }
-    .limg-spacing{
-        margin:0
-    }   
+    .limg-spacing {
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
-    
-    .pimgs{
-        width:25%;
+    .pimgs {
+        width: 25%;
         margin: 0 1% 0 1%;
     }
 
-    .limgs{
-        width:50%;
-        margin:0 1% 0 1%;
+    .limgs {
+        width: 50%;
+        margin: 0 1% 0 1%;
     }
 
-    div.wrapping > div{
+    div.wrapping > div {
         display: flex;
     }
-    .wrap{
+    .wrap {
         white-space: nowrap;
     }
-    .limg-spacing{
-        margin-top:2%
-    }   
+    .limg-spacing {
+        margin-top: 2%;
+    }
 }

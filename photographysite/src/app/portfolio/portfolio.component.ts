@@ -1,7 +1,8 @@
 import { Router, NavigationStart, NavigationEnd } from '@angular/router';
-import { Component, OnInit, OnDestroy, Input } from "@angular/core";
+import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 // Import this, and write at the top of your .ts file
-import { HostListener } from "@angular/core";
+import {portfolio} from '../../Portfolio';
+import { HostListener } from '@angular/core';
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
@@ -11,6 +12,7 @@ export class PortfolioComponent implements OnInit, OnDestroy {
 
   scrHeight:any;
   scrWidth:any;
+  @Input() port = portfolio;
 
   // constructor(private router: Router) {
   //   router.events.subscribe(
@@ -28,6 +30,8 @@ export class PortfolioComponent implements OnInit, OnDestroy {
   // Constructor
 constructor() {
   this.getScreenSize();
+  console.log(this.port[0].portrait.length + ' hai');
+  console.log(this.port[0].portrait[0]);
 }
 
     @HostListener('window:resize', ['$event'])
