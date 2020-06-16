@@ -5,9 +5,19 @@
                 <img class="pimgs draw-box" [src]="x">
             </ng-container>
     </div>
+    <div class="limg-spacing draw-box">
+        <ng-container *ngFor="let x of port[0].landscapeFirst; index as i">
+            <img class="limgs draw-box" [src]="x">
+        </ng-container>
+    </div>
+    <div class="limg-spacing draw-box">
+        <ng-container *ngFor="let x of port[0].landscapeSecond; index as i">
+            <img class="limgs draw-box" [src]="x">
+        </ng-container>
+    </div>
 </div>
 
-<div class="image portfolio-margin draw-box wrapping">
+<!-- <div class="image portfolio-margin draw-box wrapping">
     <div class="draw-box">
         <img class="pimgs draw-box" src="assets/portthicc.jpg">
         <img class="pimgs draw-box" src="assets/portthicc.jpg">
@@ -23,4 +33,4 @@
         <img class="limgs draw-box" src="assets/landthicc.jpg">
         <img class="limgs draw-box" src="assets/landthicc.jpg">
     </div>
-</div>
+</div> -->
