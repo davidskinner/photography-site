@@ -1,13 +1,25 @@
+@import "../variables.scss";
 
-
-.links{
-    display:flex;
-    align-self:center;
-    margin:1.5em;
-    font-size:1.5em;
+.links {
+    align-self: center;
+    margin: 1.5em;
+    font-size: 1.5em;
     cursor: pointer;
 }
 
-.links:hover{
-    color:#1CD95F;
+.links:hover {
+    color: $primary-color;
 }
+
+@media only screen and (max-width: 600px) {
+    .links {
+        margin: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .links {
+        margin: 1em;
+    }
+}
+
