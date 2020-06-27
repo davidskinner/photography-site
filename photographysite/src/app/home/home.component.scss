@@ -1,8 +1,17 @@
 @import "../variables.scss";
 
+.bkhome {
+    background-image: url("../../assets/bkbackground.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
 .home-question{
     text-align:center;
-    font-size:4em;
+    font-size:3em;
     font-weight: lighter;
 }
 
@@ -18,9 +27,9 @@
 }
 
 .contact-button{
-    background-color:  $primary-color;
+    background-color:$primary-color;
     border:0;
-    color:#161616;
+    color:black;
     padding: .7em 2.5em;
     text-align: center;
     text-decoration: none;
@@ -28,7 +37,25 @@
     font-size: 1.5em;
     font-weight: 600;
     cursor: pointer;
-    margin:2.5em;
+    margin:1.5em;
+}
+
+.paragraph-txt{
+    font-family:'Open Sans','Helvetica Neue',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-weight:lighter;
+    line-height: 2.5em;
+    font-size:1.1em;
+    margin-top:8%;
+    
+}
+
+.image-of-me{
+    width: 30%;
+    margin: 0 10% 0 10%;
+}
+
+.mini-bio-container{
+    margin: 0 10% 0 0;
 }
 
 @media only screen and (max-width: 600px) {
