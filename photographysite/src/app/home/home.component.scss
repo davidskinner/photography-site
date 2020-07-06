@@ -77,6 +77,7 @@
     text-align: justify;
 }
 
+
 .trypt{
     width:23.3%;
     margin: 0 5%;
@@ -88,16 +89,33 @@
 
 .mini-bio-container{
     padding:5% 0 5% 0;
-    margin:0 10%;}
+    margin:0 10%;
+}
+
+.mini-bio-img{
+    margin: 0 5% 0 0;
+    width:33%;
+}
+
+.mini-bio-width{
+    width:67%;
+}
 
 @media only screen and (max-width: 600px) {
-    .home-question{
-        font-size:3em;
+    .header-margin{
+        margin:11vh 2em 1em 2em;
     }
+
+    .mini-bio-img{
+       display:none;
+    }
+
+    .mini-bio-width{
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 992px) {
-    .home-question{
-        font-size:3em;
-    }
+
 }
