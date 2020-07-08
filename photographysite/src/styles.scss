@@ -17,12 +17,16 @@ body {
     font-size: 4em;
 }
 
-
-
 .p-background{
     background-color: #363636;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.center-text-vertically{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
 }

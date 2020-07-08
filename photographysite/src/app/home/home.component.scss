@@ -77,6 +77,9 @@
     text-align: justify;
 }
 
+.link-color{
+    color:white;
+}
 
 .trypt{
     width:23.3%;
@@ -99,6 +102,12 @@
 
 .mini-bio-width{
     width:67%;
+}
+
+.center-text-vertically{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
 }
 
 @media only screen and (max-width: 600px) {
