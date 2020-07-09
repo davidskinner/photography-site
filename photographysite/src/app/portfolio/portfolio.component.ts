@@ -1,7 +1,7 @@
 import { Router, NavigationStart, NavigationEnd } from '@angular/router';
 import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 // Import this, and write at the top of your .ts file
-import {portfolio} from '../../Portfolio';
+import {portfolio} from '../portfolio/Portfolio';
 import { HostListener } from '@angular/core';
 @Component({
   selector: 'app-portfolio',
