@@ -110,6 +110,9 @@
     align-items: center; /* align vertical */
 }
 
+.cute-wife{
+    font-size: .07em
+}
 @media only screen and (max-width: 600px) {
     .header-margin{
         margin:11vh 2em 1em 2em;
@@ -117,6 +120,10 @@
 
     .mini-bio-img{
        display:none;
+    }
+
+    .cute-wife{
+        display: none;
     }
 
     .mini-bio-width{
